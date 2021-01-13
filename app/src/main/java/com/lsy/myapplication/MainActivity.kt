@@ -2,8 +2,6 @@ package com.lsy.myapplication
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.lsy.l1.L1Test
-import com.lsy.l2.L2Test
 
 
 class MainActivity : AppCompatActivity() {
@@ -11,8 +9,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        L1Test.show()
-        L2Test.show()
+//        L1Test.show()
+//        L2Test.show()
+//        LL1Test.show()
 
 //        val rxPermissions = RxPermissions(this)
 //        rxPermissions.request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
