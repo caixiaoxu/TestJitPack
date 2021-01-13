@@ -45,10 +45,9 @@ dependencies {
 
     implementation project(path: ':l1')
     implementation project(path: ':l2')
-    implementation project(path: ':m1')
 
 //    implementation 'com.github.caixiaoxu:TestJitPack:l1:1.0.1'
-//    implementation 'com.github.caixiaoxu:TestJitPack:1.0.1'
+    implementation 'com.github.caixiaoxu:TestJitPack:1.0.1'
 
 //    implementation 'io.reactivex.rxjava2:rxjava:2.2.12'
 //    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'

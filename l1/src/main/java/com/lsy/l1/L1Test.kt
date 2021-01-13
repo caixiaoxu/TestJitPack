@@ -2,6 +2,7 @@ package com.lsy.l1
 
 import android.util.Log
 import android.widget.Toast
+import com.lsy.ll1.LL1Test
 
 /**
  * Title :
@@ -15,5 +16,8 @@ import android.widget.Toast
  */
 object L1Test {
 
-    fun show(){ Log.e("l1--------","l1")}
+    fun show(){
+        Log.e("l1--------","l1")
+        LL1Test.show()
+    }
 }

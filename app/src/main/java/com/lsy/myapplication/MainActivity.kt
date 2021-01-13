@@ -1,14 +1,9 @@
 package com.lsy.myapplication
 
-import android.content.ContentUris
-import android.database.Cursor
-import android.net.Uri
 import android.os.Bundle
-import android.provider.MediaStore
 import androidx.appcompat.app.AppCompatActivity
 import com.lsy.l1.L1Test
 import com.lsy.l2.L2Test
-import com.lsy.m1.M1Test
 
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         L1Test.show()
         L2Test.show()
-        M1Test.show()
 
 //        val rxPermissions = RxPermissions(this)
 //        rxPermissions.request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
