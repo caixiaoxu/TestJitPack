@@ -4,7 +4,7 @@ plugins {
     id 'com.github.dcendents.android-maven'
 }
 
-group = "com.github.caixiaoxu"
+group = "com.github.xxx"//xxxgithub的帐号名称
 
 android {
     compileSdkVersion 30
